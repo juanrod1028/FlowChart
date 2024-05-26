@@ -1,0 +1,49 @@
+{
+  "Organizacion": "ADL",
+  "Bancos": [
+    {
+      "Nombre": "BANCO POPULAR",
+      "Celulas": [
+        {
+          "Nombre": "Kronos",
+          "PO": "jaime@bancoPopular",
+          "Proyectos": [
+            {
+              "Nombre": "FTV2",
+              "usado_por": ["Lb", "CT"],
+              "certificados": [
+                {
+                  "NombreDelCertificado": "cert1",
+                  "fechaDeExpiracion": "fecha"
+                },
+                {
+                  "NombreDelCertificado": "cert2",
+                  "fechaDeExpiracion": "fecha2"
+                }
+              ]
+            },
+            {
+              "Nombre": "BIOMETRIA",
+              "usado_por": ["Hip", "CT"],
+              "certificados": []
+            },
+            {
+              "Nombre": "CONTACTABILIDAD",
+              "usado_por": ["Hip", "Lb"],
+              "certificados": []
+            }
+          ]
+        },
+        {
+          "Nombre": "Libranzas",
+          "PO": "po_libranzas@bancoPopular",
+          "Proyectos": []
+        }
+      ]
+    },
+    {
+      "Nombre": "BANCO DE OCCIDENTE",
+      "Celulas": []
+    }
+  ]
+}
