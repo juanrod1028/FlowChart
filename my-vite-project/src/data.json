@@ -11,26 +11,26 @@
             {
               "Nombre": "FTV2",
               "usado_por": ["Lb", "CT"],
-              "certificados": [
+              "Certificados": [
                 {
-                  "NombreDelCertificado": "cert1",
-                  "fechaDeExpiracion": "fecha"
+                  "Nombre": "cert1",
+                  "fechaDeExpiracion": "fecha",
+                  "usado_por": [{ "Nombre": "Hip" }, { "Nombre": "CT" }]
                 },
                 {
-                  "NombreDelCertificado": "cert2",
-                  "fechaDeExpiracion": "fecha2"
+                  "Nombre": "cert2",
+                  "fechaDeExpiracion": "fecha2",
+                  "usado_por": []
                 }
               ]
             },
             {
               "Nombre": "BIOMETRIA",
-              "usado_por": ["Hip", "CT"],
-              "certificados": []
+              "Certificados": []
             },
             {
               "Nombre": "CONTACTABILIDAD",
-              "usado_por": ["Hip", "Lb"],
-              "certificados": []
+              "Certificados": []
             }
           ]
         },

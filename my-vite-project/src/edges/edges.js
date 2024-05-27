@@ -1,4 +1,4 @@
-import { processJsonToNodesAndEdges } from "../../../processData";
+import { processJsonToNodesAndEdges } from "../processData";
 
 const { edges } = processJsonToNodesAndEdges();
 
